@@ -1,18 +1,65 @@
 @use "scss/vars";
 
+body {
+  background-color: vars.$background-1;
+}
+
 .header-main {
+  background-color: vars.$background-2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+  padding: 0 50px;
 
   &__link {
 
   }
-
+    
   &__logo {
     height: 24px;
-    //fill: vars.display1;
+    fill: vars.$display-1;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 37px;
   }
 
   &__nav-item {
-    
+    // display: inline-block;
+    // margin-left: 37px;
+
+    // &:first-child {
+    //   margin-left: 0;
+    // }
+  }
+
+  &__nav-link {
+    color: vars.$display-1;
   }
   
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 80px;
+
+  min-height: 800px;
+  padding: 0 50px 70px;
+
+  color: vars.$display-1;
+  background: vars.$background-1 url('/images/bg-hero.jpg') no-repeat center / cover;
+
+  &__title {
+    font-size: 120px;
+  }
+
+  &__desc {
+    display: flex;
+    justify-content: space-between;
+  }
 }
