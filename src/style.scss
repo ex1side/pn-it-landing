@@ -23,6 +23,14 @@ body {
   }
 
   &__nav {
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    
     display: flex;
     gap: 37px;
   }
