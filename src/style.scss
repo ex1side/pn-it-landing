@@ -28,7 +28,7 @@ body {
     }
 
     a {
-      text-decoration: none;
+      text-decoration: none
     }
     
     display: flex;
@@ -69,5 +69,26 @@ body {
   &__desc {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+.welcome {
+  padding: 135px 186px 178px 152px;
+  color: vars.$paragraph-1;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    
+    max-width: 942px;
+    &-text {
+      font-size: 18px;
+      max-width: 447px;
+      //margin: 60px 0 0 0;
+    }
+  }
+
+  &__title {
+    
+    font-size: 32px;
   }
 }
