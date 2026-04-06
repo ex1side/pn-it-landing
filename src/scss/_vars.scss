@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+:root {
+  font-family: "Geist", sans-serif;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
 $background-1: #F7F4EB;
 $background-2: #0D1F08;
 $background-3: #1F0808;
@@ -9,4 +42,6 @@ $display-4: #000000;
 
 $paragraph-1: #000000;
 $paragraph-2: #FFFFFF;
+
+$accent: #31110F;
 
